@@ -1,0 +1,139 @@
+/**
+ * 共通系CSS
+ */
+//---------------------------------------------------------
+@charset "utf-8";
+
+html {
+  cursor: default;
+}
+
+.display-none {
+  display: none;
+}
+
+.display-block {
+  display: block;
+}
+
+.display-ib {
+  display: inline;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.relative {
+  position: relative;
+}
+
+//---------------------------------------------------------
+
+.white-space-pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.taCenter,
+.tACenter {
+  text-align: center;
+}
+
+.taRight,
+.tARight {
+  text-align: right;
+}
+
+.taLeft,
+.tALeft {
+  text-align: left;
+}
+
+.float-right {
+  float: right
+}
+
+.float-right {
+  float: left;
+}
+
+//---------------------------------------------------------
+
+.vATop {
+  vertical-align: top;
+}
+
+.vABottom {
+  vertical-align: bottom;
+}
+
+//---------------------------------------------------------
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+//---------------------------------------------------------
+
+table.no-border {
+}
+
+table.no-border td {
+  border: 0;
+}
+
+//---------------------------------------------------------
+
+.fs10 {
+  font-size: 10px;
+}
+
+.fs11 {
+  font-size: 11px;
+}
+
+.fs12 {
+  font-size: 12px;
+}
+
+.fs13 {
+  font-size: 13px;
+}
+
+.fs14 {
+  font-size: 14px;
+}
+
+.fs15 {
+  font-size: 15px;
+}
+
+.fs16 {
+  font-size: 16px;
+}
+
+.fs17 {
+  font-size: 17px;
+}
+
+.fs18 {
+  font-size: 18px;
+}
+
+.fs19 {
+  font-size: 19px;
+}
+
+.fs20 {
+  font-size: 20px;
+}
+
+.fs21 {
+  font-size: 21px;
+}
+
+.fs22 {
+  font-size: 22px;
+}

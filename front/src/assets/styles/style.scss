@@ -1,0 +1,67 @@
+/**
+ * プロジェクト固有のCSS
+ */
+//---------------------------------------------------------
+
+@charset "utf-8";
+
+* {
+  box-sizing: border-box;
+}
+
+html, body,
+h1, h2, h3, h4, h5, h6,
+p, div, span, pre, img,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+}
+
+body {
+  color: #343331;
+}
+
+// ----------------------------------------------
+
+hr {
+  margin: 0;
+  padding: 0;
+}
+
+// ----------------------------------------------
+
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited,
+a:active
+{
+  color: #333333;
+}
+
+a:hover
+{
+  color: #000000;
+}
+
+//------------------------------------------------
+
+a.contact:link,
+a.contact:visited,
+a.contact:active,
+a.link:link,
+a.link:visited,
+a.link:active {
+  color: #333333;
+  border-bottom: 1px solid #ddd;
+}
+
+a.contact:hover,
+a.link:hover {
+  color: #000000;
+  border-bottom: 1px solid #999;
+}
