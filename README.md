@@ -18,7 +18,7 @@ DB不要で、vueをビルドできる環境＆PHPが動作する環境があれ
 /server配下のファイルをPHPが動作するサーバーに設置します。  
 データは/tmp配下に書き込みします。
 
-###UI側の準備
+### UI側の準備
 /front/config/prod.env.js を開きます。
 API_ENDPOINT_URL にAPIサーバーのURLを設定します。  
 ※最後は"/"で終わる必要があります
@@ -69,3 +69,6 @@ npm run dev
 npm run build
 
 ```
+
+画面イメージなどはこちらをご参照ください  
+https://blog.a4works.co.jp/2468.html
