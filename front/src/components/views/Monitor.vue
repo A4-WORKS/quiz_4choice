@@ -68,7 +68,7 @@
     <div class="debug">
       currentNo: {{currentNo}} - currentStatus: {{currentStatus}} <span @click="pollingControl">pollingコントロール</span>
       pollingControlStatus: {{pollingControlStatus}}
-      <a :href="resetUrl"  target="_blank">リセット</a>
+      <a :href="resetUrl" target="_blank">リセット</a>
       <br>
     </div>
 
@@ -121,7 +121,7 @@ export default {
 
   },
   computed: {
-    resetUrl: function (){
+    resetUrl: function () {
       return process.env.API_ENDPOINT_URL + 'reset.php'
     },
     countDownText: function () {
@@ -439,7 +439,7 @@ export default {
     }
   }
 
-  .choice-result{
+  .choice-result {
 
     .correct-box {
       background: #23f0ff;

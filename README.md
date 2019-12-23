@@ -19,6 +19,11 @@ DB不要で、vueをビルドできる環境＆PHPが動作する環境があれ
 データは/tmp配下に書き込みします。
 
 ### UI側の準備
+・ビルド済みのコードを利用する場合  
+/front/dist/js/app.704153436ef4add873f8.js  
+を開き、APIのURL(ドメイン)を7箇所修正します。
+
+・vueを修正してビルドを行う場合
 /front/config/prod.env.js を開きます。
 API_ENDPOINT_URL にAPIサーバーのURLを設定します。  
 ※最後は"/"で終わる必要があります
@@ -38,7 +43,11 @@ $ npm rub build
 サブドメンを使うのも良いかとおもいます。
 
 ### 進行管理用画面
-http://localhost:8080/#/monitor
+・ローカル環境  
+http://localhost:8080/#/monitor  
+
+・サーバーでの実行  
+http://{任意のドメイン}/#/monitor
 
 ### データのリセット
 http://localhost:8080/#/monitor の画面下部にリセット用のリンクを設置しています。
@@ -48,7 +57,7 @@ http://localhost:8080/#/monitor の画面下部にリセット用のリンクを
 
 ## 動作環境
 サーバーサイド:PHP7系  
-フロント: vue.js(npm)
+フロント: vue.js(npm) 改修する場合
 
 ## フォルダ構成
 /front  
